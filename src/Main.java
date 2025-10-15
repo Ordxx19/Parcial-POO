@@ -20,8 +20,8 @@ public class Main{
                 case 1 -> Validadores.menuValidadores();
                 case 2 -> ConversorMorse.menuMorse();
                 case 3 -> gestor.menuCaballeros();
-                case 4 -> System.out.println("Saliendo del programa...");
-                case 5 -> new MiJuego().jugar();
+                case 4 -> new MiJuego().jugar();
+                case 5 -> System.out.println("Saliendo del programa...");
                 default -> System.out.println("Opción no válida");
             }
 
