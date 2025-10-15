@@ -9,6 +9,7 @@ public class Main{
         do {
             System.out.println("\n=== MENÚ PRINCIPAL ===");
             System.out.println("1. Validadores");
+            System.out.println("2. Conversor morse");
             System.out.println("3. Gestor de Caballeros del Zodiaco");
             System.out.println("4. Salir");
             System.out.print("Elija una opción: ");
