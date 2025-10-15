@@ -19,6 +19,7 @@ public class Main{
                 case 2 -> ConversorMorse.menuMorse();
                 case 3 -> gestor.menuCaballeros();
                 case 4 -> System.out.println("Saliendo del programa...");
+                case 5 -> new MiJuego().jugar();
                 default -> System.out.println("Opción no válida");
             }
 
