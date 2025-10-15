@@ -11,7 +11,8 @@ public class Main{
             System.out.println("1. Validadores");
             System.out.println("2. Conversor morse");
             System.out.println("3. Gestor de Caballeros del Zodiaco");
-            System.out.println("4. Salir");
+            System.out.println("4. Mi juego");
+            System.out.println("5. Salir");
             System.out.print("Elija una opción: ");
             opcion = leer.nextInt();
 
@@ -24,6 +25,6 @@ public class Main{
                 default -> System.out.println("Opción no válida");
             }
 
-        } while (opcion != 4);
+        } while (opcion != 5);
     }
 }
